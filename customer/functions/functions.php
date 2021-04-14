@@ -1,5 +1,6 @@
 <?php
-$db= mysqli_connect("localhost", "root", "", "wasdroot");
+$db= mysqli_connect("gstanzadb2.cxqu4aok5wdg.ap-south-1.rds.amazonaws.com", "admin", "adminredhat123", "wasdroot") or die("Database Connection Unsuccessful ! .");
+
 function getPro(){
 	global $db;
 	$get_product="SELECT * FROM products order by 1 DESC LIMIT 0,6";
