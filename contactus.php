@@ -282,6 +282,5 @@ $subject="WELCOME TO GameStnaza!!!";
 $msg="We will reach you soon. Thanks for the mail.";
 $from="regmimishan@gmail.com";
 mail($email,$subject,$msg,$from);
-echo "<h2 align = 'center'>MAIL SENT</h2>";
 }
 ?>
